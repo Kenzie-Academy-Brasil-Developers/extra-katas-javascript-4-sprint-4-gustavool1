@@ -19,7 +19,7 @@ function kata1() {
 showResults(kata1(), 'Kata 1')
 
 function kata2(){
-    return JSON.stringify(bestThing)
+    return JSON.stringify(bestThing.split(" "))
 }
 showResults(kata2(), 'Kata 2')
 
