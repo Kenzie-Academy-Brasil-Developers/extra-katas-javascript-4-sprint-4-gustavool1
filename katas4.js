@@ -37,12 +37,12 @@ function kata4(){
 showResults(kata4(), 'KATA 4')
 
 function kata5(){
-   return gotCitiesCSV.split(', ', 5)
+   return JSON.stringify(gotCitiesCSV.split(',', 5))
 }
 showResults(kata5(), 'Kata 5')
 
 function kata6(){
-    return lotrCitiesArray.slice(', ', 5).join(", ")
+    return JSON.stringify(lotrCitiesArray.slice(',', 5))
 }
 
 showResults(kata6(), 'Kata 6')
